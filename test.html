@@ -1,0 +1,62 @@
+<html>
+	<head><title>欢迎注册信息</title></head>
+	<body>
+		<center>
+			<caption><b>注册信息</b></caption>
+			<p>
+			<form method="get" action="register.html">
+				<table>
+					<tr>
+						<td>用户名：</td>
+						<td><input type="text" name="user" value="" width="30"></td>
+					</tr>
+					<tr>
+						<td>密码：</td>
+						<td><input type="password" name="pwd" value="" width="30"></td>
+					</tr>
+					<tr>
+						<td>性别：</td>
+						<td>
+							<input type="radio" name="sex" value="0" checked>男
+							<input type="radio" name="sex" value="1">女
+						</td>
+					</tr>
+					<tr>
+						<td>兴趣爱好：</td>
+						<td>
+							<input type="checkbox" name="interest" value="football">足球
+							<input type="checkbox" name="interest" value="basketball">篮球
+							<input type="checkbox" name="interest" value="volleyball">排球
+							<input type="checkbox" name="interest" value="swim">游泳<br>
+							<input type="checkbox" name="interest" value="tennis">网球
+							<input type="checkbox" name="interest" value="traveling">旅游
+						  <input type="checkbox" name="interest" value="painting">绘画
+						  <input type="checkbox" name="interest" value="reading">读书
+						</td>
+					</tr>
+					<tr>
+						<td>最高学历</td>
+						<td>
+							<select size="1" name="education">
+							<option value="" selected>...</optin>
+							<option value="高中">高中</option>
+							<option value="大专">大专</option>
+							<option value="大学">大学</option>
+							<option value="博士">硕士</option>
+							<option value="博士">博士</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">个人说明:</td>
+						<td><textarea name="personal" rows="5" cols="30">个人简介</textarea></td>
+					</tr>
+					<tr>
+						<td> <input type="reset" value="重置"></td>
+						<td><input type="submit" value="注册"></td>
+					</tr>
+				</table>
+			</form>
+		</center>	
+	</body>
+</html>
